@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 15px;
+  height: 200vh;
+}
+
+.password-manager-logo {
+  height: 60px;
+  width: 150px;
+}
+.input-icon {
+  width: 14px;
+  height: 12px;
+  margin: 10px;
+}
+.password-manager {
+  height: 250px;
+  width: 300px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding: 20px;
+  height: 60vh;
+  margin-bottom: 15px;
+}
+.card-heading {
+  color: white;
+  font-size: small;
+}
+.form-container {
+  padding: 12px;
+  background-color: #454f84;
+  border-radius: 12px;
+}
+.input-element {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  border-left-style: solid;
+  border-left-color: #94a3b8;
+}
+.input-holder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 35px;
+  width: 100%;
+  background-color: #f8fafc;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: white;
+  border-width: 0px;
+  width: 60px;
+  height: 25px;
+}
+.card-container2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #5763a5;
+  border-radius: 8px;
+  padding: 20px;
+  height: 100vh;
+  margin-bottom: 15px;
+}
+.card-container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.passwords-container {
+  display: flex;
+  padding: 12px;
+}
+.password-description {
+  margin-right: 10px;
+  color: white;
+  font-size: medium;
+  margin-top: 0px;
+}
+.passwords-count {
+  border-style: solid;
+  height: 40px;
+  border-color: #b6c3ca;
+  padding: 20px;
+  padding-top: 2px;
+  color: white;
+  border-radius: 15px;
+  width: 12px;
+  height: 30px;
+  padding-left: 15px;
+  margin-top: 0px;
+}
+.hr {
+  color: #64748b;
+  width: 100%;
+}
+.show-passwords {
+  display: flex;
+  align-self: flex-end;
+  color: white;
+  font-weight: bold;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.no-passwords {
+  align-self: center;
+  height: 250px;
+  width: 300px;
+}
+.no-passwords-text {
+  font-weight: bold;
+  color: white;
+  align-self: center;
+  padding-bottom: 2px;
+}
+.search-input-holder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 35px;
+  width: 20%;
+  background-color: #f8fafc;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}

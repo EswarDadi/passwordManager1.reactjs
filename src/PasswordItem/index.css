@@ -1,0 +1,32 @@
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  height: 12px;
+  width: 12px;
+  border-width: 0px;
+}
+.password-items {
+  color: white;
+}
+.list-items-container {
+  display: flex;
+  border-style: solid;
+  padding: 12px;
+  border-color: #b6c3ca;
+  border-width: 0.2px;
+  width: 300px;
+  margin-right: 12px;
+}
+.thumbnail {
+  border-style: solid;
+  background-color: #10b981;
+  padding: 15px;
+  border-radius: 50px;
+  height: 40px;
+  border-width: 0px;
+  padding-top: 12px;
+  margin-right: 10px;
+}
+.password-image {
+  width: 80px;
+}
